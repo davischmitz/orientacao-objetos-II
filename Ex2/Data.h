@@ -8,6 +8,26 @@
 
 class Data {
 
+private:
+    int dia;
+    int mes;
+    int ano;
+
+public:
+    Data();
+    Data(int, int, int);
+    ~Data();
+
+    void setDia(int);
+    int getDia();
+
+    void setMes(int);
+    int getMes();
+
+    void setAno(int);
+    int getAno();
+
+    void operator-(Data);
 };
 
 
