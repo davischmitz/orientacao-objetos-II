@@ -2,9 +2,9 @@
 
 int main() {
 
-    Data data1(10, 2, 1998);
+    Data data1(30, 1, 2001);
 
-    Data data2(12, 8, 2019);
+    Data data2(8, 11, 2005);
 
     data1 - data2;
     return 0;
